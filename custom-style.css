@@ -1,4 +1,8 @@
 #controller {
     background-image: url(https://i.postimg.cc/zvypPG1K/o.jpg);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;  /* Ensures the whole image fits */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    width: 100%;
+    height: 100%;
+}
